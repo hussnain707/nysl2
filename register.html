@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="assets/fb_favicon.ico">
+    <!-- <link rel="stylesheet" href="styles/nysl_style1.css"> -->
+    <!-- <link rel="stylesheet" href="styles/nysl_style2.css"> -->
+    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/nysl_style3.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    
+    <title>NYSL Registeration</title>
+</head>
+<body>
+<div class = "main">
+    <div class="heading">
+        <h1>NORTHSIDE YOUTH SOCCER LEAGUE</h1>
+    </div>
+    
+    
+    <div class="header">
+      <img class ="banner" src="assets/banner_own002.jpg" alt="">
+    </div>
+    
+
+    <div class="top">
+        <div class="logo">
+            <img class="nycl-logo" src="assets/nysl_logo.png" alt="">
+        </div>
+                    
+    </div>
+    
+    
+    <div class="page-heading">
+            <p>REGSITERATION</p>
+    </div>
+    
+        
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT US</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html">GAME INFO</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="rules.html">RULES</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="register.html">REGISTER</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT US</a>
+                </li>
+            
+            
+            
+            
+            </ul>
+        </div>
+    </nav>
+    
+    
+    
+    <!-- <div class="nav">
+                   
+        <ul>
+            <div class="index">
+                <li><a href="index.html">HOMEPAGE</a></li>
+            </div>
+            
+            <div class="about">
+                <li class><a href="about.html">ABOUT US</a></li>
+            </div>               
+            
+            <div class="contact">
+                <li><a href="contact.html">CONTACT US</a></li>
+            </div>
+            
+            <div class="info">
+                    <li><a href="info.html">GAME INFO</a></li>
+                </div>
+
+            <div class="rules">
+                    <li><a href="rules.html">RULES</a></li>
+            </div>
+
+            <div class="registration">
+                <li><a href="registration.html">REGISTER</a></li>
+            </div>
+         </ul>
+    </div> -->
+    
+    
+    <br>
+    <br>
+    
+    <div class="register">
+        
+        <h3>Registeration Form</h3>
+        <br>
+        <br>
+        <div class = "address">
+            <form action="">
+                <label for="first-name">Player's First Name:</label>
+                <input id="first-name" type="text" placeholder ="Your Last Name" >
+                <label for="last-name">Player's Last Name:</label>
+                <input id ="last-name" type="text" placeholder="Your Last Name">
+                <br>
+                <label for="street">Street Address:</label>
+                <input id="street" type="text" placeholder ="Your Address" size="35"><br>
+                <label for="city">City:</label>
+                <input id="city" type="text" placeholder="Your City" size="30">
+                <label for="zip">ZIP</label>
+                <input id="zip" type="text" name ="zip" placeholder="Your ZIP" size="20">
+                <br>
+                <br>
+            </form>
+        </div>
+        
+        <div class="dob">
+            <form>
+                <label for="dob">Birth Date</label>
+                <input type="date" name="birthdate" id="dob">
+                <label for="gender">Gender: </label>
+                <input id ="gender" type="radio" name="gender" value="male" checked> Male
+                <input id ="gender" type="radio" name="gender" value="female"> Female
+                <br>
+                <label for="parent">Parent/Guardian:</label>
+                <input type="text" name ="parent" id ="parent" size="40">
+                <br>
+                <label for="">Cotact Phone</label>
+                <input type="tel" name ="telephone" id="tel">
+                <label for="email">Contact Email</label>
+                <input type="email" name ="email" id="email">
+                <br>
+                <br>
+            </form>
+        </div>
+
+        <h4>Which elementary schools do you live near?</h4>
+
+        <div class="school1">
+            <form action="">
+                
+                <br>
+                <label for="first-school">First Closest School</label>
+                <br>
+                <input type="checkbox" name="katzenmaier"> AJ Katzenmaier
+                <input type="checkbox" name="marjorie"> Marjorie P Hart
+                <br>
+                <input type="checkbox" name="greenbay"> Greenbay
+                <input type="checkbox" name="south"> South Elementary
+                <br>
+                <input type="checkbox" name="yeager"> Howard A Yeager
+                <input type="checkbox" name="north"> North Elementary
+            </form>
+        </div>
+        
+        <br> 
+        
+        <div class="school2">
+            <form action="">
+                <label for="second-school">Second Closest School</label>
+                <br>
+                <input type="checkbox" name="katzenmaier"> AJ Katzenmaier
+                <input type="checkbox" name="marjorie"> Marjorie P Hart
+                <br>
+                <input type="checkbox" name="greenbay"> Greenbay
+                <input type="checkbox" name="south"> South Elementary
+                <br>
+                <input type="checkbox" name="yeager"> Howard A Yeager
+                <input type="checkbox" name="north"> North Elementary
+            </form>
+        </div>
+        <br>
+        <div class="position">
+            
+            <form action="">
+                <label for="position">What position(s) do you normally play? (check all that apply)</label>
+                <br>
+                <input type="checkbox" name="forward">Forward
+                <input type="checkbox" name="midfield">Midfield
+                <br>
+                <input type="checkbox" name="defense">Defense
+                <input type="checkbox" name="goalkeeper">Goalkeeper
+
+
+            </form>
+        </div>
+        <br>
+        <div class="position-wanted">
+            
+            <form action="">
+                <label for="position">What position(s) do you want to play? (check all that apply)</label>
+                <br>
+                <input type="checkbox" name="forward">Forward
+                <input type="checkbox" name="midfield">Midfield
+                <br>
+                <input type="checkbox" name="defense">Defense
+                <input type="checkbox" name="goalkeeper">Goalkeeper
+                <br>
+                <br>
+                <input type="checkbox"> <strong>Already have a uniform</strong>
+            </form>
+        </div>
+        <br>
+        <div class="unform">
+            <form action="">
+                <label for="jersey">Jersey Size</label>
+                <br>
+                <input type="checkbox" name="ys">Youth Small <br>
+                <input type="checkbox" name="ym">Youth Medium <br>
+                <input type="checkbox" name="yl">Youth Large <br>
+                <input type="checkbox" name="s">Small <br>
+                <input type="checkbox" name="m">Medium <br>
+                <input type="checkbox" name="l">Large <br>
+                <input type="checkbox" name="ys">Extra Large <br>
+                <br>
+                <label for="jersey">Shorts Size</label>
+                <br>
+                <input type="checkbox" name="ys">Youth Small <br>
+                <input type="checkbox" name="ym">Youth Medium <br>
+                <input type="checkbox" name="yl">Youth Large <br>
+                <input type="checkbox" name="s">Small <br>
+                <input type="checkbox" name="m">Medium <br>
+                <input type="checkbox" name="l">Large <br>
+                <input type="checkbox" name="ys">Extra Large <br>
+
+
+            </form>            
+        </div>
+
+        <br>
+        <br>
+
+        <div class="permission">
+
+            <h4>Permission to Play</h4>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                sponsored activities, which transportation.
+            </p>
+            <br>
+            <input type="checkbox" name="permission">I hereby agree and authorize the above. In addition,  I also acknowledge that I have read the
+                                                     cancellation policy and agree to its terms.
+            <br>
+            <input type="submit" value="submit">                               
+            </div>
+
+        
+        
+    </div>
+</div>
+</body>
+</html>

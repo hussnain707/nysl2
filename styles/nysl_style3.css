@@ -1,0 +1,193 @@
+body{
+    background-color: #fff4e4;
+    /* font-family: 'Roboto', sans-serif;   */
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+
+.banner{
+    max-width: 100%;
+    margin: 0%;
+}
+
+
+
+.navbar{
+    position: absolute;
+    background-color: rgb(41, 39, 39);
+    width: 100%;
+}
+
+.nycl-logo{
+    max-width: 18%;
+    position: absolute;
+    left:5%;
+    top: 23%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.heading{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    font-size: 19px;
+    font-size-adjust:auto;
+    color: white;
+    margin:20px;
+    text-shadow: 5px 5px 5px black;
+    -webkit-text-stroke: 2px;
+}
+
+
+
+.mission{
+    position: absolute;
+    left: 25%;
+    width: 40%;
+    top: 55%;
+}
+
+.events{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    top: 57%;
+    padding: 5px; 
+    margin: 10px;
+}
+.contact-message{
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    width: 30%;
+    padding: 5px; 
+    margin: 10px; 
+}
+
+.rules{
+    position: absolute;
+    left: 22%;
+    width: 50%;
+    top: 50%;
+    padding: 30px; 
+    margin: 10px;
+}
+
+.info{
+    position: absolute;
+    left: 22%;
+    width: 60%;
+    top: 50%;
+    padding: 30px; 
+    margin: 10px; 
+}
+.register{
+    position: absolute;
+    left: 22%;
+    width: 60%;
+    top: 50%;
+    padding: 30px; 
+    margin: 10px;   
+}
+
+.rules-heading{
+    text-align: centerleft;
+}
+
+.sportsmanship{
+    list-style-type: disc;
+}
+
+}
+label, input, select, button{
+    width:20%;
+    margin: auto;
+}
+
+h2{
+    line-height: 1;
+}
+
+h3{
+    line-height: 0.5;
+}
+
+.page-heading{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    font-size: 30px;
+    font-size-adjust: auto;
+    top: 30%;
+    left: 78%;
+    text-shadow: 5px 5px 5px black;
+    max-width: 70;
+    z-index: 1;
+}
+
+
+.table3{
+    padding: 5px 5px 5px 5px;
+    
+}
+
+tr{
+    padding: 5px;
+    margin: 5px;
+}
+
+.index, .about, .contact, .info, .rules, .registration{
+    display: inline-block;
+    
+}
+ ol{
+     margin-left: 10px;
+ }
+
+ table{
+     width: 100%;
+ }
+
+ .register{
+     width: 70%;
+ }
+
+/* li{
+    margin: 8px;
+    background-color: rgb(59, 57, 57);
+    padding: 10px;
+    font-weight: bold;
+    width: 90%;
+    height: 20%;
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.9;
+    box-shadow: 5px 5px 5px black; 
+} */
+
+/* li:hover{
+    background-color: black;
+} */
+
+
+
+ 
+ 
+ /* li a{
+     text-decoration: none;
+     color:white
+ } */
+
+ /* li:active{
+     color:white;
+ } */
+
+ 
+
+ 
